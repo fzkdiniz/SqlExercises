@@ -16,17 +16,30 @@ Crie um modelo de dados para os cenários a seguir:
 
 1 - Um petshop deseja manter cadastrados seus clientes bem como seus pets.
 
+
+
+![PET](https://github.com/fzkdiniz/SqlExercises/assets/61026576/8dd3dc29-b74e-4cdf-bf61-9527e0d5ce71)
+
 Um cliente deve informar seu nome, CPF, e-mail e telefone, além do nome, espécie e data de nascimento de seu pet.
 
-2 - Em uma produtora de games, há desenvolvedores, que possuem um nome, CPF, data de nascimento.
+2 - Em uma produtora de games, há desenvolvedores, que possuem um nome, CPF, data de nascimento
 
 Cada projeto tem um nome, data de lançamento, gênero e faixa etária. Segundo o gerente de projetos, “cada desenvolvedor deve estar envolvido em um projeto”.
 
 SLIDE 19 (NESTE EXERCÍCIO SERÁ OBSERVADO A CARDINALIDADE ENTRE OS COMPONENTES APRESENTADOS, ALÉM DA IDENTIFICAÇÃO DOS ELEMENTOS DO DER).
 
+![PET](https://github.com/fzkdiniz/SqlExercises/assets/61026576/1708d940-842f-4083-88b9-55d24dbfd230)
+
+
 Uma biblioteca efetua registro de autores e livros. Um autor é cadastrado com seu nome, e-mail, nacionalidade e data de nascimento. Já um livro é registrado com o título, quantidade de páginas, acabamento e editora.
 
+![Biblio](https://github.com/fzkdiniz/SqlExercises/assets/61026576/8f5915bc-f0e6-4c9c-a747-e7dae40fcc44)
+
+
 Uma locadora de automóveis, mantém registro dos automóveis. Um automóvel é cadastrado com placa, modelo, ano, nome da montadora, site da montadora, logotipo da montadora.
+
+![Concessionaria](https://github.com/fzkdiniz/SqlExercises/assets/61026576/4e1dc6ec-bdba-49c2-897f-c68397a17ca6)
+
 
 Um supermercado cadastra seus produtos. Um produto é identificado por seu nome, preço, quantidade em estoque, nome da marca, SAC da marca, nacionalidade da marca.
 
