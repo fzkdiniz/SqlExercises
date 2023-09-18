@@ -1,0 +1,17 @@
+
+CREATE TABLE Colaboradores (
+    CodigoIdentificacao INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    CPF VARCHAR(14) UNIQUE,
+    Cargo VARCHAR(50),
+    Salario DECIMAL(10, 2)
+);
+
+-- Insira alguns registros de exemplo
+INSERT INTO Colaboradores (CodigoIdentificacao, Nome, CPF, Cargo, Salario)
+VALUES
+    (101, 'Carlos', '123.456.789-00', 'Gerente', 5500.00),
+    (102, 'Patricia', '987.654.321-01', 'Analista de Marketing', 4200.50),
+    (103, 'Rafael', '111.222.333-44', 'Programador', 6500.75),
+    (104, 'Julia', '555.666.777-88', 'Assistenteo', 3500.25),
+    (105, 'Fernandoa', '999.888.777-66', 'Engenheiro', 7000.00);
