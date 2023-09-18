@@ -1,0 +1,16 @@
+CREATE TABLE Alunos (
+    RA INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    DataNascimento DATE,
+    Endereco VARCHAR(100),
+    Email VARCHAR(100)
+);
+
+-- Insira alguns registros de exemplo
+INSERT INTO Alunos (RA, Nome, DataNascimento, Endereco, Email)
+VALUES
+    (112313213, 'Link', '2000-05-15', 'Kokiri Forest', 'fairyless@hyrule.com'),
+    (123123122, 'Samus', '1999-09-22', 'Planet Zebes, 333', 'bountyhunters@metroid.com'),
+    (312313543, 'Fox', '2001-02-10', 'Corneria', 'shipdestroyer@galaxy.com'),
+    (534543454, 'Cloud', '1998-07-05', 'Midgar, Sector 7', 'soldierz@shinra.com'),
+    (534534453, 'Chrono', '2002-11-30', 'Warp zone', 'timetravels@chronos.com');
