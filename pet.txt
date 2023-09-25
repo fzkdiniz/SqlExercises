@@ -1,0 +1,26 @@
+CREATE TABLE pet_shoop (
+  	CPF INT,
+	nome VARCHAR(120),
+  	data_nascimento DATE,
+  	email VARCHAR(50),
+    telefone INT,
+    nomeAnimal VARCHAR(50),
+    especie VARCHAR(50)
+);
+
+
+INSERT INTO pet_shoop (CPF, nome, data_nascimento, email, telefone, nomeAnimal, especie)
+VALUES (123, 'Hebert', '2023-01-01', 'hebert@gmail.com', 015625342343, 'Vira', 'cachorro');
+
+INSERT INTO pet_shoop (CPF, nome, data_nascimento, email, telefone, nomeAnimal, especie)
+VALUES (124, 'jhon', '2023-02-02', 'jhon@gmail.com', 23423424323, 'Luiz', 'cachorro');
+
+INSERT INTO pet_shoop (CPF, nome, data_nascimento, email, telefone, nomeAnimal, especie)
+VALUES (125, 'pedro', '2023-03-03', 'pedro@gmail.com', 15988117769, 'BIa', 'cachorro');
+
+INSERT INTO pet_shoop (CPF, nome, data_nascimento, email, telefone, nomeAnimal, especie)
+VALUES (126, 'Lucas', '2023-04-04', 'lucas@gmail.com', 123412312312, 'Atila', 'cachorro');
+
+INSERT INTO pet_shoop (CPF, nome, data_nascimento, email, telefone, nomeAnimal, especie)
+VALUES (127, 'Fabio', '2023-05-05', 'fabio@gmail.com', 123123213231, 'Doge', 'cachorro');
+

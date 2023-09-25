@@ -1,0 +1,58 @@
+CREATE TABLE produtora (
+  	 CPF INT PRIMARY KEY,
+	nome VARCHAR(255),
+  	data_nascimento DATE
+);
+
+CREATE TABLE projeto (
+  	projeto_id INT PRIMARY KEY,
+    user_cpf INT,
+	nome VARCHAR(255),
+    faixa_etaria VARCHAR(255),
+    genero VARCHAR(255),
+  	data_lancamento DATE,
+    FOREIGN KEY (user_cpf) REFERENCES produtora(CPF)
+);
+
+
+INSERT INTO produtora(CPF, nome, data_nascimento
+) VALUES (123, 'John', '2023-01-01'
+);
+ 
+ INSERT INTO produtora(CPF, nome, data_nascimento  
+ ) VALUES (456, 'Lisa', '2023-02-02'
+  ) ;
+ 
+ INSERT INTO produtora(CPF, nome, data_nascimento  
+ ) VALUES (789, 'Julia', '2023-03-03'
+);
+ 
+ INSERT INTO produtora(CPF, nome, data_nascimento  
+ ) VALUES (101112, 'Nina', '2023-04-04'
+);
+ 
+ INSERT INTO produtora(CPF, nome, data_nascimento  
+ ) VALUES (131415, 'Anna', '2023-05-05'
+  );
+
+
+
+ INSERT INTO projeto(projeto_id, nome, faixa_etaria, genero, data_lancamento, user_cpf
+) VALUES (1, 'JohnProject', 18, 'acao',  '2023-02-02', 123
+ );
+ 
+  INSERT INTO projeto(projeto_id, nome, faixa_etaria, genero, data_lancamento, user_cpf 
+) VALUES (2, 'Lisa-Project', 16, 'ficcao',  '2023-02-02', 456
+ );
+
+  INSERT INTO projeto(projeto_id, nome, faixa_etaria, genero, data_lancamento, user_cpf 
+) VALUES (3, 'Julia-Project', 21, 'comedia',  '2023-02-02', 789
+ );
+
+   INSERT INTO projeto(projeto_id, nome, faixa_etaria, genero, data_lancamento, user_cpf 
+) VALUES (4, 'Nina-Project', 15, 'terror',  '2023-02-02', 101112
+ );
+
+   INSERT INTO projeto(projeto_id, nome, faixa_etaria, genero, data_lancamento, user_cpf 
+) VALUES (5, 'anna-Project', 0, 'infantil',  '2023-02-02', 131415
+ );

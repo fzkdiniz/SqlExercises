@@ -1,0 +1,51 @@
+CREATE TABLE videoteca (
+  	id INT,
+    titulo VARCHAR(255),
+    preco FLOAT,
+    duracao FLOAT,
+    idioma VARCHAR(30)
+);
+
+CREATE TABLE elenco (
+  	elenco_id INT PRIMARY KEY,
+    filme_id INT,
+    nome VARCHAR(255),
+    nascionalidade VARCHAR(255),
+    data_nascimento VARCHAR(255)
+	
+    FOREIGN KEY (filme_id) REFERENCES videoteca(id)
+);
+
+
+INSERT INTO videoteca(id, titulo, preco, duracao, idioma) 
+VALUES (1, 'Super Homem', 10.99, 120.5, 'BR');
+
+INSERT INTO videoteca(id, titulo, preco, duracao, idioma) 
+VALUES (2, 'Iron Men', 12.99, 130.0, 'EUA');
+
+INSERT INTO videoteca(id, titulo, preco, duracao, idioma) 
+VALUES (3, 'Avengers', 9.99, 115.0, 'BR');
+
+INSERT INTO videoteca(id, titulo, preco, duracao, idioma)
+ VALUES (4, 'Pepa Pig', 7.99, 60.0, 'EUA');
+
+INSERT INTO videoteca(id, titulo, preco, duracao, idioma) 
+VALUES (5, 'Up', 8.99, 96.5, 'BR');
+
+
+
+INSERT INTO elenco(elenco_id, filme_id, nome, nascionalidade, data_nascimento)
+ VALUES (1, 1, 'Joao - Protagonista', 'BR', '2023-02-02');
+
+INSERT INTO elenco(elenco_id, filme_id, nome, nascionalidade, data_nascimento)
+ VALUES (2, 2, 'Nicole - Camera', 'EUA', '2023-02-02');
+
+INSERT INTO elenco(elenco_id, filme_id, nome, nascionalidade, data_nascimento) 
+VALUES (3, 3, 'Thiago - Roteirista', 'BR', '2023-02-02');
+
+INSERT INTO elenco(elenco_id, filme_id, nome, nascionalidade, data_nascimento)
+ VALUES (4, 4, 'Donatelo - Mascote', 'EUA', '2023-02-02');
+
+INSERT INTO elenco(elenco_id, filme_id, nome, nascionalidade, data_nascimento) 
+VALUES (5, 5, 'Fabio', 'BR', '2023-02-02');
+
