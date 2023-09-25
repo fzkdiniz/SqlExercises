@@ -42,8 +42,12 @@ Uma locadora de automóveis, mantém registro dos automóveis. Um automóvel é 
 
 
 Um supermercado cadastra seus produtos. Um produto é identificado por seu nome, preço, quantidade em estoque, nome da marca, SAC da marca, nacionalidade da marca.
+![image](https://github.com/fzkdiniz/SqlExercises/assets/61026576/d1f7e601-a614-4de1-93e2-cdb8b8bd31b9)
+
 
 Uma videoteca precisa cadastrar o título, duração, idioma original e preço de cada filme. É necessário cadastrar também o elenco de cada filme onde se registra o nome, data de nascimento, nacionalidade de cada ator/atriz. Opcionalmente, inclua o cadastro de diretores com atributos que julgar necessários.
+![image](https://github.com/fzkdiniz/SqlExercises/assets/61026576/5c4ae50b-0391-4d8c-8bc4-248df0dc5b35)
+
 
 --------ETAPA 2---------------
 
